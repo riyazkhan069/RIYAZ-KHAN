@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Riyaz Khan | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Three.js CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <!-- Particles.js CDN -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+  <!-- Navigation -->
+ <nav>
+  <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+  </ul>
+ </nav>
+ 
+  <!-- Hero Section -->
+  <section id="hero">
+    <div id="particles-js"></div>
+    <canvas id="three-canvas"></canvas>
+    <div class="hero-content">
+      <div id="three-container"></div>
+      <h1 class="hero-title">Welcome to My Portfolio</h1>
+      <h2>I'm <span>Riyaz Khan</span></h2>
+      <p class="typing-text">Full Stack Developer | Backend Specialist</p><br><br>
+      <a href="#projects" class="view-work-btn">View My Work</a>
+    </div>
+  </section>
+  
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+  <h2>About Me</h2>
+  <p>Hello! I’m <span class="highlight">Riyaz</span>, a passionate 
+     <strong>Full Stack Developer</strong> who loves building 
+     modern, interactive, and responsive web applications.</p>
+  
+  <p>I enjoy working with both <span class="highlight">frontend</span> 
+     and <span class="highlight">backend</span> technologies, 
+     turning ideas into digital reality with clean code, 
+     smooth animations, and seamless user experiences.</p>
+  
+  <p>Beyond coding, I keep learning new tools, exploring 
+     creative UI/UX trends, and contributing to open-source 
+     projects to improve my skills.</p>
+  
+  <div class="about-buttons">
+    <a href="resume.pdf" class="btn secondary" download>Download Resume</a>
+  </div>
+</section>
+
+
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">Project 1</div>
+      <div class="project-card">Project 2</div>
+      <div class="project-card">Project 3</div>
+    </div>
+  </section>
+
+ <!-- Skills Section -->
+<section id="skills">
+  <h2>My Skills</h2>
+
+  <div class="skills-container">
+    <!-- Frontend -->
+    <div class="skill-card">
+      <h3>Frontend</h3>
+      <div class="skill">
+        <span>HTML</span>
+        <div class="bar"><div class="fill" style="width:95%"></div></div>
+      </div>
+      <div class="skill">
+        <span>CSS</span>
+        <div class="bar"><div class="fill" style="width:90%"></div></div>
+      </div>
+      <div class="skill">
+        <span>JavaScript</span>
+        <div class="bar"><div class="fill" style="width:85%"></div></div>
+      </div>
+      <div class="skill">
+        <span>React</span>
+        <div class="bar"><div class="fill" style="width:80%"></div></div>
+      </div>
+    </div>
+
+    <!-- Backend -->
+    <div class="skill-card">
+      <h3>Backend</h3>
+      <div class="skill">
+        <span>Node.js</span>
+        <div class="bar"><div class="fill" style="width:85%"></div></div>
+      </div>
+      <div class="skill">
+        <span>Express.js</span>
+        <div class="bar"><div class="fill" style="width:80%"></div></div>
+      </div>
+      <div class="skill">
+        <span>Python (Django/Flask)</span>
+        <div class="bar"><div class="fill" style="width:75%"></div></div>
+      </div>
+      <div class="skill">
+        <span>Databases (MySQL, MongoDB)</span>
+        <div class="bar"><div class="fill" style="width:85%"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+
+  <!-- Social Icons Section -->
+<div class="social-icons">
+  <a href="https://github.com/YourUsername" target="_blank" class="icon">
+    <i class="fab fa-github"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/YourUsername/" target="_blank" class="icon">
+    <i class="fab fa-linkedin-in"></i>
+  </a>
+  <a href="mailto:youremail@example.com" class="icon">
+    <i class="fas fa-envelope"></i>
+  </a>
+  <a href="https://twitter.com/YourUsername" target="_blank" class="icon">
+    <i class="fab fa-twitter"></i>
+  </a>
+</div>
+  </section>
+
+  <script src="script.js"></script>
+
+  <!-- Footer -->
+  <div class="footer-copy">
+  © 2025 Riyaz Khan | Designed by You
+  </div>
+
+</body>
+</html>
